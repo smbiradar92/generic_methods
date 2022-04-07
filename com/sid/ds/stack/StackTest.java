@@ -20,5 +20,18 @@ public class StackTest {
 		System.out.println(stack.peek());
 		assertEquals(56, stack.peek());
 	}
+	
+	@Test
+	public void popStack() {
+		MyStack<Integer> stack= new MyStack<>();
+		stack.push(70);
+		stack.push(30);
+		stack.push(56);
+	
+		System.out.println(stack);
+		assertEquals(56, stack.pop());
+		System.out.println(stack);
+		
+	}
 
 }
