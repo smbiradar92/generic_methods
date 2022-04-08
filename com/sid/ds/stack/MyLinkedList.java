@@ -134,8 +134,4 @@ public class MyLinkedList<K> {
 		return null;
 	}
 
-	public void addLast(INode<K> itemNode) {
-		// TODO Auto-generated method stub
-		
-	}
 }
